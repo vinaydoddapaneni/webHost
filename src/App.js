@@ -54,7 +54,7 @@ class App extends React.Component{
         <p>
           
         </p>
-        <input type='text' value={this.state.number} onChange={this.onEvent} name='number' style={{width:'60px',borderRadius:'5px'}}/><br/><br/>
+        <input type='text' value={this.state.number} onChange={this.onEvent} name='number' style={{width:'60px',borderRadius:'5px',color:'red'}}/><br/><br/>
         <button onClick={this.onSub}>
           -
         </button>
