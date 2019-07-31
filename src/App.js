@@ -54,12 +54,15 @@ class App extends React.Component{
         <p>
           
         </p>
-        <input type='text' value={this.state.number} onChange={this.onEvent} name='number' style={{width:'60px',borderRadius:'5px',color:'red'}}/><br/><br/>
+        <input type='text' value={this.state.number} onChange={this.onEvent} name='number' style={{width:'60px',borderRadius:'5px'}}/><br/><br/>
         <button onClick={this.onSub}>
           -
         </button>
         <button onClick={this.onReset}>Reset</button>
       </header>
+      <footer>
+        <p>@Copyright DVS</p>
+      </footer>
     </div>
   );
 }
