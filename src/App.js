@@ -61,7 +61,7 @@ class App extends React.Component{
         <button onClick={this.onReset}>Reset</button>
       </header>
       <footer>
-        <p>@Copyright DVS</p>
+        <p>@Copyright DVS 2018-2019</p>
       </footer>
     </div>
   );
