@@ -1,4 +1,5 @@
 import React from 'react';
+import Links from './Links';
 
 class App extends React.Component{
   
@@ -98,6 +99,7 @@ class App extends React.Component{
             <li className="layer" data-depth="0.20">
               <div className="contact">
                 Theme by DVS_MAX_5
+                <Links/>
               </div>
             </li>
           </ul>
